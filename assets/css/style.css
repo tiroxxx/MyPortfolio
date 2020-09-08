@@ -9,7 +9,11 @@ body {
 }
 
 #myPicture {
-    margin-right: 20px;
+    margin-right: 10px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
 }
 
 .floatLeft {
@@ -33,13 +37,24 @@ body {
         max-height: 300px;
     }
 
+    #myContainer {
+        max-width: 100%;
+    }
+
+    .row {
+        max-width: 100%;
+        margin: auto;
+
+    }
+
 }
 
 @media screen and (max-width: 640px) {
 
     #myPicture {
-        max-width: 400px;
-        max-height: 400px;
+        margin: auto;
+        max-width: 600px;
+        max-height: 500px;
     }
 
 }
