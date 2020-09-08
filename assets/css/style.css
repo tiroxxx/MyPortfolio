@@ -7,3 +7,39 @@ body {
     color: gray;
     background-image: url(../images/dark-honeycomb.png);
 }
+
+#myPicture {
+    margin-right: 20px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+
+@media screen and (min-width: 769px) {
+    
+    #myPicture {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    #myPicture {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #myPicture {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+}
