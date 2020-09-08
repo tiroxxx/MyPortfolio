@@ -1,0 +1,11 @@
+body {
+    background-image: url(../images/dark-honeycomb.png);
+}
+
+h1 {
+    color: gray;
+}
+
+.myBrand {
+    background-color: darkgray;
+}
