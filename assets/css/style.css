@@ -6,6 +6,9 @@ body {
 #myText {
     color: gray;
     background-image: url(../images/dark-honeycomb.png);
+    padding: 20px;
+    margin-left: -15px;
+
 }
 
 #myPicture {
