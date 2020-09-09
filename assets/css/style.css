@@ -16,18 +16,19 @@ body {
 
 #myContainer{
     position: relative;
+    min-height: 100%;
 }
 
 
 footer{
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: navy;
-   color: darkgray;
-   text-align: center;
-   padding: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: navy;
+    color: darkgray;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
