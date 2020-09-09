@@ -23,6 +23,10 @@ body {
     float: left;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 .middleRow {
     margin-top: 20px;
 }
@@ -48,6 +52,11 @@ body {
         max-height: 300px;
     }
 
+    .enlarge {
+        width: 400px;
+        height: 300px;
+    }
+
     #myContainer {
         max-width: 100%;
     }
@@ -55,7 +64,10 @@ body {
     .row {
         max-width: 100%;
         margin: auto;
+    }
 
+    .topRow {
+        margin-top: 20px;
     }
 
 }
