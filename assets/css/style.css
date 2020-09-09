@@ -23,6 +23,14 @@ body {
     float: left;
 }
 
+.middleRow {
+    margin-top: 20px;
+}
+
+.bottomRow {
+    margin-top: 20px;
+}
+
 
 @media screen and (min-width: 769px) {
     
