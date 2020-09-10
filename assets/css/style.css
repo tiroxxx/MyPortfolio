@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 
+/* Background of the website */
 body {
     background-image: url(../images/dark-honeycomb.png);
     color: gray;
 }
 
+/* giving my name the same background image */
 #myText {
     color: gray;
     background-image: url(../images/dark-honeycomb.png);
@@ -51,10 +53,6 @@ button {
     float: left;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 .middleRow {
     margin-top: 20px;
 }
@@ -63,7 +61,7 @@ button {
     margin-top: 20px;
 }
 
-
+/* makes the picture of me smaller on bigger screens */
 @media screen and (min-width: 769px) {
     
     #myPicture {
@@ -73,13 +71,14 @@ button {
     
 }
 
-@media screen and (max-width: 768px) {
 
+@media screen and (max-width: 768px) {
+/* makes the picture of me bigger on smaller screens */
     #myPicture {
         max-width: 300px;
         max-height: 300px;
     }
-
+/* makes the rows go across the screen on smaller screens */
     #myContainer {
         max-width: 100%;
     }
@@ -89,22 +88,22 @@ button {
         margin: auto;
     }
 
-    /* .topRow {
+    .topRow {
         margin-top: 20px;
-    } */
+    }
 
 }
 
 @media screen and (max-width: 640px) {
-
+/* makes my picture really big for small screens */
     #myPicture {
         margin: auto;
         max-width: 600px;
         max-height: 500px;
     }
-
+/* makes placeholder images bigger for small screens */
     .portfolioImg {
-        width: 300px;
+        width: 400px;
         height: 300px;
         margin: auto;
         display: block;
@@ -120,6 +119,8 @@ button {
     
     .bottomRow {
         margin-top: 20px;
+        margin-bottom: 20px;
+    
     }
 
 }
