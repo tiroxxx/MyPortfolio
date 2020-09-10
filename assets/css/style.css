@@ -16,7 +16,7 @@ body {
     margin-left: -15px;
 }
 
-#myContainer{
+.myContainer{
     position: relative;
     min-height: 100%;
 }
