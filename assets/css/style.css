@@ -65,6 +65,11 @@ button {
     width: 100%;
 }
 
+#outer-col {
+    background-color: #246A73;
+    border-radius: 10px;
+}
+
 #aboutme {
     background-color: #246A73;
     border-radius: 5px;
@@ -75,6 +80,10 @@ button {
     padding: 20px;
     background-color: #8BA6A9;
     /* margin-left: ; */
+}
+
+#last-row {
+    margin-bottom: 10px;
 }
 
 #myPicture {
