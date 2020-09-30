@@ -14,22 +14,17 @@
 
 <body>
     <!-- Navbar on top of the screen -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="myContainer container">
-            <!-- link with my name in the top left of screen -->
-            <!-- takes you to the main page -->
-            <a id="myText" class="navbar-brand myBrand rounded" href="index.html">Christian Marquez</a>
-
-            <!-- the links to the different sites of my portfolio in the navbar -->
-            <div class="" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </div>
-            </div>
+    <header class="navbar navbar-expand-sm">
+        <!-- link with my name in the top left of screen -->
+        <!-- takes you to the main page -->
+        <a id="myText" class="navbar-brand myBrand rounded" href="index.html">Christian Marquez</a>
+        <!-- the links to the different sites of my portfolio in the navbar -->
+        <div class="floatRight navbar-nav">
+            <a class="navlink" href="index.html">About</a>
+            <a class="navlink separator" href="portfolio.html">Portfolio</a>
+            <a class="navlink separator" href="contact.html">Contact</a>
         </div>
-    </nav>
+    </header>
 
     <main class="myContainer container mt-5">
 
@@ -59,19 +54,18 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6 col-md-8 col-sm-12 bg-light text-center">
+            <div class="col-lg-3 col-md-4 col-sm-12 bg-light text-center">
                 <img class="bottomRow portfolioImg rounded" src="http://placehold.it/200x150" alt="">
             </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 bg-light text-center">
+                <img class="middleRow portfolioImg rounded" src="http://placehold.it/200x150" alt="">
+            </div>
         </div>
-
-
-
+        <!-- footer with copyright -->
+        <footer>
+            &#169; Christian Marquez
+        </footer>
     </main>
-    <!-- footer with copyright -->
-    <footer>
-        &#169; Christian Marquez
-    </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

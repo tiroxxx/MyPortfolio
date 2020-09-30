@@ -3,34 +3,26 @@
 }
 
 /* Background of the website */
+
 body {
-    background-image: url(../images/dark-honeycomb.png);
-    color: gray;
+    background-image: url("../images/background.jpg");
+    color: white;
 }
 
-/* giving my name the same background image */
-#myText {
-    color: gray;
-    background-image: url(../images/dark-honeycomb.png);
-    padding: 20px;
-    margin-left: -15px;
-}
-
-.myContainer{
-    position: relative;
-    min-height: 100%;
-}
-
-
-footer{
+footer {
     position: absolute;
-    right: 0;
-    bottom: 0;
     left: 0;
-    background-color: navy;
-    color: darkgray;
+    bottom: 0;
+    width: 100%;
+    background-color: #246A73;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 h1 {
@@ -41,12 +33,8 @@ button {
     margin-bottom: 10px;
 }
 
-#myPicture {
-    margin-right: 10px;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    padding: 10px;
+.floatRight {
+    float: right;
 }
 
 .floatLeft {
@@ -61,66 +49,89 @@ button {
     margin-top: 20px;
 }
 
+.navlink {
+    color: white;
+    padding: 10px;
+}
+
+.separator {
+    border-left: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.navbar {
+    background-color: #246A73;
+    width: 100%;
+}
+
+#aboutme {
+    background-color: #246A73;
+    border-radius: 5px;
+}
+
+#myText {
+    color: white;
+    padding: 20px;
+    background-color: #8BA6A9;
+    /* margin-left: ; */
+}
+
+#myPicture {
+    margin-right: 10px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
 /* makes the picture of me smaller on bigger screens */
+
 @media screen and (min-width: 769px) {
-    
     #myPicture {
         max-width: 200px;
         max-height: 200px;
     }
-    
 }
 
-
 @media screen and (max-width: 768px) {
-/* makes the picture of me bigger on smaller screens */
+    /* makes the picture of me bigger on smaller screens */
     #myPicture {
         max-width: 300px;
         max-height: 300px;
     }
-/* makes the rows go across the screen on smaller screens */
+    /* makes the rows go across the screen on smaller screens */
     #myContainer {
         max-width: 100%;
     }
-
     .row {
         max-width: 100%;
         margin: auto;
     }
-
-    .topRow {
-        margin-top: 20px;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-/* makes my picture really big for small screens */
-    #myPicture {
-        margin: auto;
-        max-width: 600px;
-        max-height: 500px;
-    }
-/* makes placeholder images bigger for small screens */
     .portfolioImg {
         width: 400px;
         height: 300px;
         margin: auto;
         display: block;
     }
-
     .topRow {
         margin-top: 20px;
     }
-
     .middleRow {
         margin-top: 20px;
     }
-    
     .bottomRow {
         margin-top: 20px;
         margin-bottom: 20px;
-    
     }
+}
 
+@media screen and (max-width: 640px) {
+    /* makes my picture really big for small screens */
+    #myPicture {
+        margin: auto;
+        max-width: 600px;
+        max-height: 500px;
+    }
+    /* makes placeholder images bigger for small screens */
 }

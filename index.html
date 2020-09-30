@@ -13,28 +13,23 @@
 </head>
 
 <body>
+
     <!-- Navbar on top of the screen -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container myContainer">
-            <!-- link with my name in the top left of screen -->
-            <!-- takes you to the main page -->
-            <a id="myText" class="navbar-brand myBrand rounded" href="index.html">Christian Marquez</a>
-
-            <!-- the links to the different sites of my portfolio in the navbar -->
-            <div class="" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </div>
-            </div>
+    <header class="navbar navbar-expand-sm">
+        <!-- link with my name in the top left of screen -->
+        <!-- takes you to the main page -->
+        <a id="myText" class="navbar-brand myBrand rounded" href="index.html">Christian Marquez</a>
+        <!-- the links to the different sites of my portfolio in the navbar -->
+        <div class="floatRight navbar-nav">
+            <a class="navlink" href="index.html">About</a>
+            <a class="navlink separator" href="portfolio.html">Portfolio</a>
+            <a class="navlink separator" href="contact.html">Contact</a>
         </div>
-    </nav>
+    </header>
 
-    <main class="myContainer container mt-5">
-
-        <section class="row">
-            <div class="col-md-9 bg-light">
+    <main class="myContainer container">
+        <section class="row mt-5">
+            <div id="aboutme" class="col-md-9">
                 <h1>About Me</h1>
                 <!-- picture of me -->
                 <img id="myPicture" class="floatLeft myPicture"
@@ -54,12 +49,12 @@
                 </p>
             </div>
         </section>
-
+        <!-- footer with copyright -->
+        <footer>
+            <p>&#169; Christian Marquez</p>
+        </footer>
     </main>
-    <!-- footer with copyright -->
-    <footer>
-            &#169; Christian Marquez
-    </footer>
+
 
 
 
