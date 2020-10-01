@@ -19,6 +19,10 @@ footer {
     padding: 10px;
 }
 
+a {
+    color: white;
+}
+
 header {
     position: absolute;
     left: 0;
@@ -31,6 +35,11 @@ h1 {
 
 button {
     margin-bottom: 10px;
+}
+
+.portfolioImg {
+    width: 200px;
+    height: 150px;
 }
 
 .right {
