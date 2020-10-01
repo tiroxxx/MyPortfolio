@@ -33,6 +33,11 @@ button {
     margin-bottom: 10px;
 }
 
+.right {
+    position: absolute;
+    right: 20%;
+}
+
 .floatRight {
     float: right;
 }
@@ -68,6 +73,10 @@ button {
 .form {
     background-color: #246A73;
     border-radius: 5px;
+}
+
+#github {
+    margin-left: 5px;
 }
 
 #outer-col {
